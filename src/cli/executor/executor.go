@@ -19,8 +19,8 @@ func New(cmd command.Command) (Executor, error) {
 		}
 		return executor, nil
 	}
-	if cmd.GetType() == command.KeyBuild {
-		executor, err := NewBuild()
+	if cmd.GetType() == command.KeySpark {
+		executor, err := NewSpark()
 		if err != nil {
 			return nil, err
 		}

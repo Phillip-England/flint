@@ -2,8 +2,6 @@ package command
 
 import (
 	"os"
-
-	"github.com/phillip-england/purse"
 )
 
 type Command interface {
@@ -21,12 +19,23 @@ func New() (Command, error) {
 		return cmd, nil
 	}
 	secondArg := args[1]
-	if secondArg == "build" {
-		cmd, err := NewBuild()
+	if secondArg == "spark" {
+		cmd, err := NewSpark()
 		if err != nil {
 			return nil, err
 		}
 		return cmd, nil
 	}
-	return nil, purse.Err(`invalid command`)
+	if secondArg == "help" {
+		cmd, err := NewHelp()
+		if err != nil {
+			return nil, err
+		}
+		return cmd, nil
+	}
+	cmd, err := NewHelp()
+	if err != nil {
+		return nil, err
+	}
+	return cmd, nil
 }

@@ -1,6 +1,6 @@
 package command
 
 const (
-	KeyBuild = "KEYBUILD"
+	KeySpark = "KEYSPARK"
 	KeyHelp  = "KEYHELP"
 )

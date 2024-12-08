@@ -2,5 +2,5 @@ package executor
 
 const (
 	KeyHelp  = "KEYHELP"
-	KeyBuild = "KEYBUILD"
+	KeySpark = "KEYSPARK"
 )

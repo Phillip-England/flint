@@ -1,7 +1,9 @@
 {
-    "server": "localhost:8080",
-    "static": "localhost:8080/static",
-    "out": "/out",
+    "host": "http://localhost:8080",
+    "static": "./static",
+    "favicon": "./favicon.ico",
+    "out": "./out",
+    "target": "https://phillip-england.github.io/www.stacijs.com",
     "routes": [
         "/",
         "/docs/signals",
