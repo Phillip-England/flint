@@ -1,0 +1,12 @@
+{
+    "server": "localhost:8080",
+    "static": "localhost:8080/static",
+    "out": "/out",
+    "routes": [
+        "/",
+        "/docs/signals",
+        "/docs/events",
+        "/docs/observers",
+        "/docs/installation"
+    ]
+}

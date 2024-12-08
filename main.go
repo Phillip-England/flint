@@ -1,7 +1,19 @@
 package main
 
-import "fmt"
+import (
+	"flint/src/cli"
+	"fmt"
+	"os"
+)
 
 func main() {
-	fmt.Println("hello, flint")
+
+	cmd, err := cli.NewCommand()
+	if err != nil {
+		fmt.Fprintf(os.Stderr, "%s\n", err.Error())
+		return
+	}
+
+	cmd.Print()
+
 }
