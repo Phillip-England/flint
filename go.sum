@@ -8,3 +8,5 @@ github.com/phillip-england/purse v1.0.21 h1:wbGkflOCNqORMmdFhm+LmIJ8/yyO1TpenzWy
 github.com/phillip-england/purse v1.0.21/go.mod h1:MeBsQJohgOVLuiEMXd2CBHuS3yFWGoaxVDKYCKL3uCE=
 github.com/phillip-england/purse v1.0.22 h1:B05Cz8qYRikEGUHNM+0nSj85/o4ivw/6UnYNIRdLRO8=
 github.com/phillip-england/purse v1.0.22/go.mod h1:MeBsQJohgOVLuiEMXd2CBHuS3yFWGoaxVDKYCKL3uCE=
+github.com/phillip-england/purse v1.0.23 h1:CAKdJApXgBgW6fr3cycmoPCOUAjdEJLJvRiZkBaE2c4=
+github.com/phillip-england/purse v1.0.23/go.mod h1:MeBsQJohgOVLuiEMXd2CBHuS3yFWGoaxVDKYCKL3uCE=
