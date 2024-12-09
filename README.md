@@ -17,7 +17,7 @@ go build -o flint main.go
 Then, you can move `flint` somewhere on your `PATH` to use on your system.
 
 ## Config
-`flint` require a `flint.json` to gain a bit of context on how to build your assets.
+`flint` requires a `flint.json` to gain a bit of context on how to build your assets.
 
 Here is an example `flint.json`:
 ```json
@@ -52,7 +52,7 @@ The `host` is simply where your application is running. Right now, `flint` focus
 `out` lets `flint` know where to place the static assets after generation.
 
 ### Target
-`target` tells `flint` where the application will be deployed. This enables flint to crawl all of the relative `link=` and `src=` attributes on elements and change them from relative paths to absolute paths. This enables all links are properly transformed and work as expected in the target environment.
+`target` tells `flint` where the application will be deployed. This enables flint to crawl all of the relative `link=` and `src=` attributes on elements and change them from relative paths to absolute paths. This ensures all links are properly transformed and work as expected in the target environment.
 
 ### Routes
 `routes` tells `flint` which endpoints to hit during static site generation.
