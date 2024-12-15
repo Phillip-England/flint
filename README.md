@@ -1,6 +1,33 @@
 # Flint
 Language-Agnostic Static Sites
 
+```bash
+  ##########  ##   ##    ###      ##  ########
+  ##          ##         ####     ##     ##
+  #######     ##   ##    ## ##    ##     ##
+  ##          ##   ##    ##  ##   ##     ##
+  ##          ##   ##    ##   ##  ##     ##
+  ##          ##         ##    ## ##     ##
+  ##          #########  ##     ####     ##
+-------------------------------------------------
+Language-Agnostic Static Sites
+-------------------------------------------------
+🔥 sparking flint
+🗃️ searching for flint.json
+🔎 parsing routes from flint.json
+🏹 making an http request to each route
+🔨 generating static html assests
+🗑️ removing ./out
+✍️ writing minified, static html to ./out
+🖌️ copying over minified, static assests from ./static
+✏️ copying over the favicon from ./favicon.ico to ./out
+⚠️ Favicon does not exist at: ./favicon.ico
+📚 your assets have been bundled at ./out
+🙏 thank you for using flint
+⭐ dont forget to give me star at: https://github.com/phillip-england/flint
+```
+
+## What is Flint?
 `flint` is a static site generator that works regardless of the way you build your application. Run you app on `localhost`, setup your `flint.json` and run `flint spark` to generate your static assets. 
 
 ## Installation
