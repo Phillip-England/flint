@@ -1,16 +1,17 @@
 package executor
 
 import (
-	"flint/src/generator/asset"
-	"flint/src/generator/config"
-	"flint/src/generator/response"
-	"flint/src/generator/route"
 	"fmt"
 	"io"
 	"io/fs"
 	"os"
 	"path/filepath"
 	"strings"
+
+	"github.com/phillip-england/flint/src/generator/asset"
+	"github.com/phillip-england/flint/src/generator/config"
+	"github.com/phillip-england/flint/src/generator/response"
+	"github.com/phillip-england/flint/src/generator/route"
 
 	"github.com/phillip-england/purse"
 	"github.com/tdewolff/minify/v2"

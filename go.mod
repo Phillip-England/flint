@@ -1,4 +1,4 @@
-module flint
+module github.com/phillip-england/flint
 
 go 1.23.3
 

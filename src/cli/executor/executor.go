@@ -1,7 +1,7 @@
 package executor
 
 import (
-	"flint/src/cli/command"
+	"github.com/phillip-england/flint/src/cli/command"
 
 	"github.com/phillip-england/purse"
 )

@@ -1,10 +1,11 @@
 package main
 
 import (
-	"flint/src/cli/command"
-	"flint/src/cli/executor"
 	"fmt"
 	"os"
+
+	"github.com/phillip-england/flint/src/cli/command"
+	"github.com/phillip-england/flint/src/cli/executor"
 )
 
 func main() {

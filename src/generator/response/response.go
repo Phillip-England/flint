@@ -1,11 +1,12 @@
 package response
 
 import (
-	"flint/src/generator/route"
 	"fmt"
 	"io"
 	"net/http"
 	"strings"
+
+	"github.com/phillip-england/flint/src/generator/route"
 
 	"github.com/PuerkitoBio/goquery"
 )

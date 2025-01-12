@@ -1,8 +1,9 @@
 package route
 
 import (
-	"flint/src/generator/config"
 	"fmt"
+
+	"github.com/phillip-england/flint/src/generator/config"
 )
 
 type Route struct {

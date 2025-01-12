@@ -2,8 +2,9 @@ package asset
 
 import (
 	"bytes"
-	"flint/src/generator/response"
 	"fmt"
+
+	"github.com/phillip-england/flint/src/generator/response"
 
 	"github.com/PuerkitoBio/goquery"
 	"github.com/tdewolff/minify/v2"
